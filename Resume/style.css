@@ -5,11 +5,14 @@ BODY {
   font-weight:400;
 }
 /*Banner name at top*/
-h1 {
+#name {
   color: #33485e;
   text-transform:uppercase;
   text-align: center;
   font-size: 3em;
+  border-bottom:1px solid #33485e;
+  width:60%;
+  min-width:300px;
 }
 /*Job Title near top*/
 strong{

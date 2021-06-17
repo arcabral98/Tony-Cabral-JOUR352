@@ -92,7 +92,7 @@ ul{
 
 }
 
-li{display: inline;
+.menu li{display: inline;
 list-style-type: none;
 }
 

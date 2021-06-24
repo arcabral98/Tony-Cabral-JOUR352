@@ -17,10 +17,10 @@
   font-size:2em;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   color: green;
   letter-spacing: 0.1em;
-  background-color: #eeeeee;
+  text-shadow: 1px 1px 0px #000000;
 }
 
 .image{

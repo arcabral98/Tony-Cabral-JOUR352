@@ -4,26 +4,26 @@ BODY {
   color: #444;
   font-weight:400;
   background-color:#BDCAF2;
+  margin-top:10px;
 }
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 /*Banner name at top*/
 /*changed the h1 to a div*/
 #name{
-  color: #33485e;
+  color: #120086;
   text-transform:uppercase;
   text-align: center;
   font-size: 3em;
-  border-bottom:1px solid #33485e;
   width:60%;
   min-width:300px;
   margin:0 auto;
+  font-weight:700;
 }
 /*Job Title near top*/
 /*changed to id of title*/
 #title{
-  color:#33485e;
+  color:#120086;
   text-transform:uppercase;
   font-size: 1.5em;
   font-weight: 600;
@@ -76,14 +76,16 @@ ul{
 
 #header{
   width:100%;
-  max-width:1200px;
+  max-width:1800px;
+  height:200px
   margin:0 auto;
+  background-color:white;
 }
 
 #container{
   width:100%;
-  max-width:1200px;
   margin:0 auto;
+  background-color:#BDCAF2;
 }
 
 .description{
@@ -119,11 +121,6 @@ list-style-type: none;
   margin-right:0px;
 }
 
-.column1of3, .column2of3, .column3of3{
-  width:300px;
-  float:left;
-  margin: 10px;
-}
 
 .bubble{
   color:white;
@@ -136,6 +133,51 @@ list-style-type: none;
   -webkit-border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+
+}
+
+#profilepic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.star{
+  text-decoration: underline;
+  color:#120086;
+  font-size: 100px;
+}
+
+footer{
+  background-color: #120086;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #120086;
+  color: white;
+}
+
+.typewriter{
+  width:100px;
+  height:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .7;
 }

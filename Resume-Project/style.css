@@ -1,0 +1,132 @@
+/*styles for my resume*/
+BODY {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #444;
+  font-weight:400;
+  background-color:#BDCAF2;
+}
+/*Banner name at top*/
+/*changed the h1 to a div*/
+#name {
+  color: #33485e;
+  text-transform:uppercase;
+  text-align: center;
+  font-size: 3em;
+  border-bottom:1px solid #33485e;
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
+}
+/*Job Title near top*/
+/*changed to id of title*/
+#title{
+  color:#33485e;
+  text-transform:uppercase;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+/*Section Titles*/
+/*changed class to sectionheader*/
+.sectionheader{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color:#120086;
+  font-weight: 600;
+  text-align:center;
+  text-decoration: underline;
+}
+/*Job Titles*/
+/*changed class to job title*/
+.jobtitle{
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+/*Job Organization*/
+/*changed class to organization*/
+.organization{
+  color: white;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+/*Job Dates*/
+/*changed class to date*/
+.date{
+  color:white;
+  font-weight: 500;
+  font-style:italic;
+  font-size: 1em;
+  margin-top: 2px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+/*Contact info, skills and education*/
+ul{
+  font-size:1em;
+}
+
+#container{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.description{
+  color: white;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.menu{
+  margin:0px;
+  padding:0px;
+  text-align:center;
+
+}
+
+.menu li{display: inline;
+list-style-type: none;
+}
+
+#degrees{
+  margin-top:5px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+#do{
+  margin-top:5px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.column1of3, .column2of3, .column3of3{
+  width:300px;
+  float:left;
+  margin: 10px;
+}
+
+.bubble{
+  color:white;
+  background-color: #120086;
+  border: 5px solid #120086;
+  padding:5px;
+  width:275px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

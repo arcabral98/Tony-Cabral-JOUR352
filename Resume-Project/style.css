@@ -172,12 +172,3 @@ footer{
   background-color: #120086;
   color: white;
 }
-
-.typewriter{
-  width:100px;
-  height:100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: .7;
-}

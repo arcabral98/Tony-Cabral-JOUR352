@@ -1,6 +1,5 @@
 BODY{
   background-color: black;
-  text-decoration-color: white;
 }
 
 .navtop{
@@ -110,6 +109,28 @@ p{
   font-size: 1em;
   color: white;
   padding:10px;
+}
+
+.sidebar{
+  background-size: contain;
+  background-color: red;
+  border-style: groove;
+  border-width: 2px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+#sidebartitle{
+  text-align: center;
+  background-color:red;
+  font-weight:700;
+}
+
+.list{
+  font-display: block;
 }
 
 footer{

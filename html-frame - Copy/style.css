@@ -1,7 +1,54 @@
 BODY{
   background-image: url("world_map.jpg");
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment:scroll;
+  background-position: 35% 40%;
+
+}
+
+#ticket{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  height: 350px;
+  width: 1100px;
+}
+
+#card{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  height: 600px;
+  width: 1100px;
+}
+
+#tag1{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  height: 600px;
+  width: 1100px;
+}
+
+#tag2{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  height: 600px;
+  width: 1100px;
+}
+
+#tag3{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  height: 600px;
+  width: 1100px;
 }
 
 p{

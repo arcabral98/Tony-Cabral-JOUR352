@@ -17,6 +17,10 @@ BODY{
   width: 1300px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
+  background-image:url("barcode.jpg");
+  background-size: 10%;
+  background-repeat: no-repeat;
+
 }
 
 #topofticket{
@@ -38,10 +42,6 @@ BODY{
   text-decoration: uppercase;
   color: black;
   width:100%;
-}
-#barcode{
-  margin-right: 30px;
-  size:50%;
 }
 
 #tickettext{

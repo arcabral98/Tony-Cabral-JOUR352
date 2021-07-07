@@ -118,6 +118,10 @@ p{
   color: black;
 }
 
+.euromap{
+  
+}
+
 .bargraph{
   width: 750px;
   height:350px;
@@ -127,6 +131,7 @@ p{
   background-color: white;
   padding:5px;
   margin-left: 15px;
+  margin-top:15px;
 }
 
 .piechart{
@@ -137,6 +142,7 @@ p{
   background-color: white;
   padding: 5px;
   margin-right: 15px;
+  margin-top: 20px;
 }
 
 footer{

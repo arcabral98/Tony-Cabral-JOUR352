@@ -118,6 +118,16 @@ p{
   color: black;
 }
 
+.bargraph{
+  width: 750px;
+  height:350px;
+  overflow:scroll;
+  float: right;
+  border:5px;
+  background-color: white;
+  padding:5px;
+}
+
 footer{
   background-color: #00397D;
   text-align: center;

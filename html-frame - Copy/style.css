@@ -126,6 +126,17 @@ p{
   border:5px;
   background-color: white;
   padding:5px;
+  margin-left: 15px;
+}
+
+.piechart{
+  width:500px;
+  height:570px;
+  float: left;
+  border: 5px;
+  background-color: white;
+  padding: 5px;
+  margin-right: 15px;
 }
 
 footer{

@@ -27,7 +27,7 @@ BODY{
   text-decoration: uppercase;
   background-color: #BBBBBB;
   color: white;
-  width:100%;
+  width:1300px;
 }
 
 #topofticket2{
@@ -37,7 +37,7 @@ BODY{
   font-size: 2em;
   text-decoration: uppercase;
   color: black;
-  width:100%;
+  width:1300px;
 }
 #barcode{
   float:left;
@@ -264,33 +264,100 @@ footer{
       background-image: url("world_map2.jpg");
   }
 
+  img{
+    display: none;
+  }
+
+  .imageattribute{
+    display: none;
+  }
+
     .tag1{
       height: 200px;
       width: 375px;
       font-size: 5px;
+      overflow: scroll;
     }
 
     .tag2{
       height: 200px;
       width: 375px;
       font-size:5px;
+      overflow: scroll;
+    }
+    .euromap{
+      display: none;
+    }
+    .piechart{
+      display: none;
+    }
+    .piechart{
+      display:none;
+    }
+
+    .container1{
+      margin:0 auto;
+
+    }
+    .container2{
+      margin:0 auto;
     }
 
     #ticket{
       height:200px;
       width:375px;
+      display:none;
     }
 
     #card{
-      height:200px;
+      height:300px;
       width:375px;
+    }
+
+    p{
+      font-size: 10px;
+    }
+
+    #tickettext{
+      display:none;
+    }
+
+    #ticketsubtext{
+      display:none;
+    }
+
+    #byline{
+      display:none;
+    }
+
+    #topofticket{
+      display:none;
+    }
+
+    #topofticket2{
+      display:none;
+    }
+    #barcode{
+      display:none;
+    }
+
+    #quote{
+      display:none;
+
+    }
+
+    #subquote{
+      display:none;
+    }
+
+    #containercard{
+      overflow:scroll;
+      padding:0px;
+      margin:0px;
     }
 
 
     .footer{
       width:100%
     }
-    body {
-        background-image: url("world_map2.jpg");
-}
   }

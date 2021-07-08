@@ -179,6 +179,17 @@ p{
   color: black;
 }
 
+#photo1{
+  width:600px;
+  float: right;
+  margin:10px;
+}
+
+#photo2{
+  width:800px;
+  margin-bottom:10px;
+}
+
 .euromap{
   background-color: white;
   width:500px;
@@ -217,20 +228,30 @@ footer{
   text-transform: uppercase;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 700px) {
     body {
         background-image: url("world_map2.jpg");
     }
-}
+    .tag1{
+      height: 80px;
+      width: 130px;
+    }
+    .tag2{
+      height: 80px;
+      width: 130px;
+    }
+  }
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media screen and  (max-width: 1024px) {
     body {
         background-image: url("world_map2.jpg");
+}
+    .tag1{
+      height: 400px;
+      width: 750px;
     }
-}
-
-@media (min-width: 1025px) {
-    body {
-	    background-image: url("world_map2.jpg");
-   }
-}
+    .tag2{
+      height: 400px;
+      width: 750px;
+    }
+  }

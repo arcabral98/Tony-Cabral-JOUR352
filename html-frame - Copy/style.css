@@ -1,9 +1,9 @@
 BODY{
-  background-image: url("world_map.jpg");
+  background-image: url("world_map2.jpg");
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-position: 35% 40%;
-  background-size:1000%;
+  background-size:cover;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -11,16 +11,11 @@ BODY{
 #ticket{
   margin:auto;
   width: 50%;
-  padding: 10px;
   background-color: white;
   height: 500px;
   width: 1300px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
-  background-image:url("barcode.jpg");
-  background-size: 10%;
-  background-repeat: no-repeat;
-
 }
 
 #topofticket{
@@ -43,11 +38,21 @@ BODY{
   color: black;
   width:100%;
 }
+#barcode{
+  float:left;
+  height:120px;
+  width:500px;
+  padding-right: 100px;
+  transform:rotate(270deg);
+  position: absolute;
+  left:80px;
+}
 
 #tickettext{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   text-align: center;
+  position:static;
   font-size: 6em;
   text-decoration: uppercase;
 }
@@ -126,7 +131,7 @@ BODY{
   margin:auto;
   width: 50%;
   padding: 10px;
-  background-color: #ECE522;
+  background-color: #F3FF5E;
   height: 800px;
   width: 1300px;
 
@@ -210,4 +215,22 @@ footer{
   background-color: #00397D;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url("world_map2.jpg");
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url("world_map2.jpg");
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+	    background-image: url("world_map2.jpg");
+   }
 }
